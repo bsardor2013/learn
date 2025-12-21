@@ -2,6 +2,8 @@
 	justify-content:center;
 	border:1px solid #ccc;
 	margin:5%;
+	max-width:600px;
+	min-width:280px;
 }
 .img {
 	width:90%;

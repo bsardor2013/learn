@@ -1,24 +1,49 @@
-header h2 {
-    text-align:center;
-    color:blue;
+.contanier {
+    width:96vw;
+    height: 96vh;
+    margin: 1%;
+    background-image:url(image.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:4%;
 }
-header {
-    width:100%;
+body {
+    width:98vw;
+    height:98vh;
 }
-.filled {
-    background-color:green;
-    display :inline;
-}
-p {
-    color:blue;
-}
-.i {
-    display:inline;
-}
-.onewindow {
-    width:100vw;
+* {
     margin:0;
     padding:0;
-    border:none;
-    height:100vh;
+    box-sizing:border-box;
+}
+.hero {
+    background-color:white;
+    width:45%;
+    height: 100%;
+    padding:3%;
+    font-size:1.3rem;
+}
+.text1 {
+    color:rgb(96, 26, 224);
+}
+h1 {
+    color:black;
+    margin:1.5% 0;
+}
+.text2 {
+    color:rgb(187, 176, 176);
+    margin:1.5% 0;
+}
+.bt {
+    color:rgb(43, 134, 209);
+    border :1px solid rgb(43, 134, 209);
+    width:40%;
+    height:10%;
+    background-color:white;
+    margin:4% 0;
+    font-size:1.1em;
+}
+.kj {
+    color:grey;
+    margin:1.5% 0;
 }

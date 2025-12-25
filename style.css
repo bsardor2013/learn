@@ -74,7 +74,10 @@ button {
     justify-content:space-around;
 }
 .para {
-    color:grey
+    color:grey;
+    text-align: center;
+    margin-top: 10px;
+    font-size :0.8em;
 }
 .fg {
     border :1px solid grey;
@@ -83,9 +86,18 @@ button {
     height:400px;
     justify-content:center;
     padding:5px;
+    font-size:1.2rem;
 }
 .im {
-    width:100px;
+    width: 33%;
     text-align:center;
-    
+    margin:0 33%;
+}
+.kl {
+    text-align:center;
+    font-size :1.8rem;
+    margin: 15px;
+}
+h4 {
+    font-size: 1.2em;
 }
